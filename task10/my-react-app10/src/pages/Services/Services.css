@@ -1,0 +1,19 @@
+.sub-nav {
+  display: flex;
+  gap: 8px;
+  margin: 20px 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+}
+
+.sub-link {
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #555;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+}
+.sub-link:hover  { background: #f3f4f6; color: #111; }
+.sub-link.active { background: #eef2ff; color: #4f46e5; }
