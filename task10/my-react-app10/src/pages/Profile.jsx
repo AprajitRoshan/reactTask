@@ -4,7 +4,7 @@ function Profile() {
       <h1>My Profile</h1>
 
       <div className="card" style={{ marginTop: 24 }}>
-        <h2>Arjun Kumar</h2>
+        <h2>Aprajit Roshan</h2>
         <p style={{ marginTop: 6 }}>Frontend Developer</p>
         <p style={{ marginTop: 6, color: '#777' }}>
           Building React apps and learning new things every day.

@@ -13,12 +13,6 @@ function About() {
         </p>
       </div>
 
-      <div className="card">
-        <h2>Our Team</h2>
-        <p style={{ marginTop: 8 }}>
-          5 developers, 2 designers, and 1 project manager working remotely.
-        </p>
-      </div>
     </div>
   )
 }
