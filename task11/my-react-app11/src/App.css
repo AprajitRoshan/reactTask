@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111827;
+  color: white;
+}
+
+.navbar {
+  background: #1f2937;
+  padding: 18px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  margin: 0;
+  color: #60a5fa;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  background: #2563eb;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+.page {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.page h1 {
+  color: #60a5fa;
+  margin-bottom: 30px;
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.user-card {
+  background: #1f2937;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  border-radius: 14px;
+  border: 1px solid #374151;
+  transition: 0.3s;
+}
+
+.user-card:hover {
+  background: #2563eb;
+  transform: translateY(-4px);
+}
+
+.details-card {
+  max-width: 600px;
+  margin: auto;
+  background: #1f2937;
+  padding: 30px;
+  border-radius: 16px;
+  text-align: left;
+  border: 1px solid #374151;
+}
+
+.details-card p {
+  font-size: 16px;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+.details-card strong {
+  color: white;
+}
+
+.details-card h3 {
+  color: #60a5fa;
+  margin-top: 25px;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .page {
+    padding: 20px;
+  }
+}
