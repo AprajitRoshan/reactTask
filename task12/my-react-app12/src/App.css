@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #45619c;
+  border: none;
+}
+
+.app {
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+}
+
+.board {
+  width: 320px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  background: #586f8f;
+  color: white;
+  cursor: pointer;
+}
+
+.cell:hover {
+  background: #97a2b4;
+}
+
+.reset-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #091c46;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background: #364b85;
+}
