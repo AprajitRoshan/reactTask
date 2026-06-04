@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #526694;
+  color: white;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+h1 {
+  color: #fdfdfd;
+  margin-bottom: 25px;
+}
+
+.user-form {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 14px;
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.user-form input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  outline: none;
+  font-size: 15px;
+}
+
+.user-form button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #2a4c94;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.table-container {
+  overflow-x: auto;
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+th,
+td {
+  padding: 14px;
+  border: 1px solid #334155;
+}
+
+th {
+  background: #4668b1;
+  color: white;
+}
+
+td {
+  color: #e5e7eb;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 5px 15px;
+  margin: 4px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #e49308;
+}
+
+.delete-btn {
+  background: #b43f3f;
+}
+
+@media (max-width: 700px) {
+  .user-form {
+    flex-direction: column;
+  }
+}
