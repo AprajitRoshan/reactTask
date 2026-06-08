@@ -1,0 +1,4 @@
+[build]
+  base = "task1/my-react-app1"
+  command = "npm run build"
+  publish = "dist"

@@ -1,0 +1,8 @@
+Base directory:
+task11/my-react-app11
+
+Build command:
+npm run build
+
+Publish directory:
+dist

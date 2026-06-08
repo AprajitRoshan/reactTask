@@ -1,0 +1,8 @@
+Base directory:
+task10/my-react-app10
+
+Build command:
+npm run build
+
+Publish directory:
+dist

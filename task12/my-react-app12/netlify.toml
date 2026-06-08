@@ -1,0 +1,8 @@
+Base directory:
+task12/my-react-app12
+
+Build command:
+npm run build
+
+Publish directory:
+dist

@@ -1,0 +1,8 @@
+Base directory:
+task13/my-react-app13
+
+Build command:
+npm run build
+
+Publish directory:
+dist
